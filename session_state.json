@@ -1,0 +1,9 @@
+{
+  "player": {
+    "x": 650,
+    "y": 200,
+    "color": "dodgerblue",
+    "radius": 30
+  },
+  "frame": 1332
+}

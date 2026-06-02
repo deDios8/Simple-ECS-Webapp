@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECS Game Client</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>🎮 ECS Game Demo</h1>
+    <div class="instructions">
+        Use <strong>W A S D</strong> keys to move the circle
+    </div>
+    
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    
+    <div class="status">
+        <div>Last Key: <span id="lastKey">None</span></div>
+        <div>Position: <span id="position">Loading...</span></div>
+        <div>Frame: <span id="frame">0</span></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
